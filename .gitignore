@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prerequisites
 *.d
 
@@ -50,3 +51,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+=======
+.pio
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+>>>>>>> master
