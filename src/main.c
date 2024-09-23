@@ -151,6 +151,6 @@ int main(void) {
     oled_write_string("Humidity: 50%");
 
     while (1) {
-        // Main loop
+        
     }
 }
