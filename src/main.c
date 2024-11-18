@@ -31,6 +31,8 @@
 #define SCL_CLOCK  100000L
 #define OLED_ADDR  0x3C
 
+void check_porta(void);
+
 // OLED Commands
 #define OLED_CMD_DISPLAY_OFF 0xAE
 #define OLED_CMD_DISPLAY_ON  0xAF
@@ -155,4 +157,13 @@ int main(void) {
     }
 }
 
-//test
+
+//add check portb function
+void check_porta(void) {
+    if (PORTA.IN & PIN0_bm) {
+        // Do something if PIN0 is high
+    } else {
+        // Do something if PIN0 is low
+    }
+}
+
